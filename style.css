@@ -11,10 +11,14 @@ body {
 
 h1 {
     color: goldenrod;
-    font-size: larger;
+    font-size: 80px;
 }
 
 #message-el {
     font-style: italic;
-    font-size: larger;
+    font-size: 50px;
+}
+
+p{
+    font-size: 50px;
 }
