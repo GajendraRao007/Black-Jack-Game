@@ -8,12 +8,17 @@ let message = ""
 let messageEl = document.getElementById("message-el")
 console.log(messageEl)
 
+let sumEl = document.getElementById("sum-el")
+console.log(sumEl)
+//----------------OR----------------------
+
+// let sumEl = document.querySelector("#sum-el")
 
 function startGame() {
 if (sum <= 20) {
     message = "Do you want to draw a new card?"
 } else if (sum === 21) {
-    message = "Wohoo! You've got Blackjack!"
+    message = "You've got Blackjack!"
     hasBlackJack = true
 } else {
     message = "You're out of the game!"
@@ -21,7 +26,7 @@ if (sum <= 20) {
 }
 
 messageEl.textContent = message
-
+sumEl.textContent = "Sum:" + sum
 }
 
 
