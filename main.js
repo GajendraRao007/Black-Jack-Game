@@ -10,6 +10,8 @@ console.log(messageEl)
 
 let sumEl = document.getElementById("sum-el")
 console.log(sumEl)
+
+let cardsEl = document.getElementById("cards-el")
 //----------------OR----------------------
 
 // let sumEl = document.querySelector("#sum-el")
@@ -26,7 +28,8 @@ if (sum <= 20) {
 }
 
 messageEl.textContent = message
-sumEl.textContent = "Sum:" + sum
+sumEl.textContent = "Sum: " + sum
+cardsEl.textContent = "Cards: " + firstCard + " " + secondCard
 }
 
 
