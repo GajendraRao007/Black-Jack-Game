@@ -33,3 +33,13 @@ cardsEl.textContent = "Cards: " + firstCard + " " + secondCard
 }
 
 
+function newCard(){
+    console.log("Drawing a new card from the deck!")
+
+    let card = 7
+
+    sum += card
+
+    startGame()
+}
+
