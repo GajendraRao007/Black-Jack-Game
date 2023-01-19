@@ -7,6 +7,9 @@ body {
     text-align: center;
     color: white;
     font-weight: bold;
+    background-image: url(cards_PNG8475.png);
+    background-size: 300px;
+    background-repeat: no-repeat;
 }
 
 h1 {
